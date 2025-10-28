@@ -119,6 +119,11 @@ class TDeviceUtils {
     }
   }
 
+  //isdarkMode
+  static bool isDarkMode(BuildContext context) {
+    return MediaQuery.of(context).platformBrightness == Brightness.dark;
+  }
+
   //isIos
   static bool isIos() {
     return !kIsWeb && Platform.isIOS;

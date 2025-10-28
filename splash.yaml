@@ -1,9 +1,11 @@
 flutter_native_splash:
-  color: "#ffffff"
-  image: assets/images/bkgremove.png
-  image_dark: assets/images/bkgremove.png
   android: true
-  ios: true
+  ios: false
   web: false
+
+  color: "#ffffff"
+  image: assets/logo/bkgremove.png
+  image_dark: assets/logo/bkgremove.png
+
   android_gravity: center
   ios_content_mode: scaleAspectFill

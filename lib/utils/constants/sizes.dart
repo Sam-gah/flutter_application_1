@@ -53,6 +53,8 @@ class TSizes {
   static const double borderRadiusXxxxl = 56.0;
   static const double borderRadiusXxxxxl = 64.0;
 
+  //App Bar Height
+  static const double appBarHeight = 56.0;
   //Divider Height
   static const double dividerHeight = 1.0;
 
