@@ -13,6 +13,21 @@ class TTexts {
   static const String onboardingSubtitle3 =
       "Keep in touch with your friends and family easily.";
 
+  static const String firstName = " First name ";
+  static const String secondName = "Second name ";
+  static const String email = "Enter Email";
+  static const String phoneNo = "Create your account ";
+  static const String password = "Create a strong Password";
+  static const String userName = "Username";
+  static const String and = "and";
+  static const String createaccount = "Create account";
+  static const String orSignupwith = "Or Sign Up with ";
+
+  //privacy policy
+  static const String iAgreeto = "I agree to ";
+  static const String privacyPolicy = "Privacy Policy ";
+  static const String termsandcondition = "Terms of Use ";
+
   //Login texts
   static const String loginTitle = "Welcome Back";
   static const String loginSubtitle = "Please login to your account";

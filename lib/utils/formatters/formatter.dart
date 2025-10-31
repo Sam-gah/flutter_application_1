@@ -1,9 +1,10 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:intl/intl.dart';
 
 class TFormatter {
   static String formatDate(DateTime date) {
     final DateFormat formatter = DateFormat('yyyy-MM-dd');
-    date ??= DateTime.now();
     return formatter.format(date);
   }
 
@@ -24,11 +25,6 @@ class TFormatter {
       return phoneNumber.replaceFirst('0', '+977-');
     } else {
       return '+977-$phoneNumber';
-    }
-    if (phoneNumber.length == 10) {
-      return '+977-$phoneNumber';
-    } else {
-      return phoneNumber;
     }
   }
 }

@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final dark = THelpersFunction.isDarkMode(context);
     return Scaffold(
-      appBar: AppBar(title: const Text('Login')),
+      appBar: AppBar(title: Text('Login', textAlign: TextAlign.center)),
       body: SingleChildScrollView(
         child: Padding(
           padding: SSpacingStyles.paddingwithAppBarHeight,
@@ -23,7 +23,7 @@ class LoginScreen extends StatelessWidget {
             children: [
               SLoginHeader(dark: dark),
               SLoginForm(),
-              SFormDivider(dark: dark),
+              SFormDivider(dark: dark, dividerText: 'SignUp'),
               const SizedBox(height: TSizes.spaceBetweenItems),
               //Footer
               SSocialButtons(),

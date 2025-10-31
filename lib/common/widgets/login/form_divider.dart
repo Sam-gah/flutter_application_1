@@ -2,9 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utils/constants/colors.dart';
 
 class SFormDivider extends StatelessWidget {
-  const SFormDivider({super.key, required this.dark});
+  const SFormDivider({
+    super.key,
+    required this.dark,
+    required this.dividerText,
+  });
 
   final bool dark;
+
+  final dynamic dividerText;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +25,7 @@ class SFormDivider extends StatelessWidget {
             endIndent: 5,
           ),
         ),
-        Text('Or Sign in With', style: Theme.of(context).textTheme.bodyMedium),
+        Text(dividerText, style: Theme.of(context).textTheme.bodyMedium),
         Flexible(
           child: Divider(
             color: dark ? TColors.darkGreyColor : TColors.greyColor,
