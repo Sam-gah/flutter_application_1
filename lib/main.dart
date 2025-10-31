@@ -5,7 +5,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // 👇 Optional: delay startup so you can actually see the splash screen
-  await Future.delayed(const Duration(seconds: 2));
+  //await Future.delayed(const Duration(seconds: 2));
 
   runApp(const App());
 }
